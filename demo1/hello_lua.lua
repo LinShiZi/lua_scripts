@@ -22,6 +22,7 @@ local function c1(c)
     end
 end
 
+
 local d = { 40, 50, 60 }
 local function d1(d)
     for i = 1, #d do
