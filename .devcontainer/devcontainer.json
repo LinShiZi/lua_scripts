@@ -1,7 +1,6 @@
 {
 	"name": "Ubuntu Lua Dev",
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-	// 自动更新 apt 并安装 lua
 	"postCreateCommand": "apt-get update && apt-get install -y lua5.4",
 	"customizations": {
 		"vscode": {
